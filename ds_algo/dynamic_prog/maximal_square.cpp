@@ -46,6 +46,7 @@ int maximalRectangleHist(int *arr , int n){
     return max_area;
 }
 
+// alternate simple DP soln : https://www.youtube.com/watch?v=_Lf1looyJMU
 int maximalSquare(vector<vector<char>>& matrix) {
     int m = matrix.size();
     if(m == 0) return 0;
